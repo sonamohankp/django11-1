@@ -1,0 +1,9 @@
+li:hover{
+    background-color:black;
+    border-radius: 10px;
+}
+div{
+    width: 80px;
+    height: 40px;
+    background-color: brown;
+}

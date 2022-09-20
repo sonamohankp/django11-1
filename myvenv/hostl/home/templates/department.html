@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+Department
+{% endblock %}
+{% load static %}
+{% block content %}
+<h1 class='text-center'> OurDepartment page</h1>
+   {% for d in dept %}
+   <div>
+    <h1 >{{d.depart_name}}</h1>
+    <h4>{{d.depart_desps}}</h4>
+   </div>
+   {% endfor %}
+{% endblock %}
